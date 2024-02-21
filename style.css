@@ -1,0 +1,38 @@
+.red-border{
+    border: 0.1rem solid red;
+}
+
+
+#navbar{
+    display: grid;
+    grid-template-columns: 33% 34% 33%;
+    text-align: center;
+}
+
+.friend-card{
+    
+    display:grid;
+    grid-template-columns: 7rem 30%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 10%;
+    margin-bottom:10%;
+}
+
+.profile-pic{
+    height: 5rem;
+    width: 5rem;
+    margin-left: 10%;
+    object-fit: cover;
+}
+
+.profile-name{
+    margin-top: 2rem;
+
+}
+
+.add-friend{
+    margin-top: 1rem;
+    margin-left:10%;
+    margin-bottom: 1rem;
+}
